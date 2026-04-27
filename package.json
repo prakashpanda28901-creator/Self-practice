@@ -1,0 +1,33 @@
+{
+<<<<<<< HEAD
+  "name": "sample_node_project",
+=======
+  "name": "ci-cd",
+>>>>>>> d5bad216cc3311fc14ce601c21e715e7ce29de31
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+<<<<<<< HEAD
+    "test": "jest",
+    "test:integration": "jest tests/integration"
+=======
+    "test": "mocha tests/*.test.js"
+>>>>>>> d5bad216cc3311fc14ce601c21e715e7ce29de31
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+<<<<<<< HEAD
+  "dependencies": {
+    "pg": "^8.20.0"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0"
+=======
+  "devDependencies": {
+    "mocha": "^11.7.5"
+>>>>>>> d5bad216cc3311fc14ce601c21e715e7ce29de31
+  }
+}
